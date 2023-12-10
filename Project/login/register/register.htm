@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="register.css" rel="stylesheet">
+    <link href="../navbar/navbar.css" rel="stylesheet">
+    <style>
+        .readonly{
+    pointer-events: none;
+  color: #999; /* Change text color to a lighter shade */
+  text-decoration: none; /* Remove underline */
+  cursor: default; /* Change cursor to default */
+  /* Optionally, you can add other styles like opacity */
+  opacity: 0.5; 
+}
+    </style>
+</head>
+<body>
+    <nav id ="navbar-placeholder">
+        <ul>
+            <li><a href="home" title="Login to access Menu">Home</a></li>
+            <li class="readonly"><a href="marvel">Marvel</a></li>
+            <li class="readonly"><a href="api">News</a></li>
+            <li class="readonly"><a href="contact">Contact Me</a></li>
+            <li class="readonly"><a href="" id="logout">Log-out</a></li>
+        </ul>
+    </nav>
+    <div class="register-container">
+        <h1>~Register</h1>
+        Username: <input id="username" name="username" type="text" placeholder="Enter your name" autocomplete="off" required><br>
+        Email: <input id="Email" name="Email" type="email" autocomplete="off" placeholder="Enter your email" required><br>
+        Mobile: <input id="number" name="number" type="number" value="+91" autocomplete="off" placeholder="Enter your mobile number" required><br>
+        Password: <input id="password" name="password" type="password" autocomplete="off" placeholder="Enter your password" required><br>
+        Confirm Password: <input id="Conpassword" name="Conpassword" type="password" autocomplete="off" placeholder="Enter your password again" required><br>
+        <input id="btnR" type="button" value="Register">
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

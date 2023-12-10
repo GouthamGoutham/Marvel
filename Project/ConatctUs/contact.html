@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="../login/navbar/navbar.css" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../Home/home.html">Home</a></li>
+            <li><a href="../Marvel/marvel.html">Marvel</a></li>
+            <li><a href="../API/api.html">News</a></li>
+            <li><a href="#" class="active">Contact Me</a></li>
+            <li ><a href="../login/login.html" id="logout">Log-out</a></li>
+        </ul>
+    </nav>
+    <div class="contact-form-container">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+          <p id="form-message"></p>
+        </form>
+      </div>
+      <script src="contact.js"></script>
+</body>
+</html>

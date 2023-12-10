@@ -1,0 +1,67 @@
+nav ul li a.active {
+    /* Define styles for active link */
+    color: #4caf50; /* Change color, for example */
+    font-weight: bold; /* Apply bold font weight */
+    /* Add any other styles to distinguish the active link */
+  }
+
+
+  body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?w=1060&t=st=1702091343~exp=1702091943~hmac=f2fd32ecb252191b115a59d2d53c26884ca396ba919ddb949cb4c966d7ea15cd');
+    background-size: cover;
+}
+
+/* Your styles for the contact form */
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: grid;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  #form-message {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

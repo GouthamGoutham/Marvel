@@ -1,0 +1,115 @@
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 25px 0;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin: 0 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #4caf50;
+}
+
+.welcome{
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    background-size: cover;
+}
+
+body{
+  background-image: url('https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?w=1060&t=st=1702091343~exp=1702091943~hmac=f2fd32ecb252191b115a59d2d53c26884ca396ba919ddb949cb4c966d7ea15cd');
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+}
+
+/* Welcome section styles */
+.welcome-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.welcome-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.welcome-section p {
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 40px;
+}
+
+
+/* ... (existing styles) ... */
+
+/* Module links styles */
+.module-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .module-links a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Add positioning */
+  }
+  
+  .module-links a:hover {
+    transform: translateY(-5px);
+  }
+  
+  .module-links img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .module-links span {
+    font-size: 1.1em;
+    position: absolute; /* Position the span */
+    top: 75%; /* Move to the middle vertically */
+    left: 50%; /* Move to the middle horizontally */
+    transform: translate(-50%, -50%); /* Center the span */
+    background-color: rgba(255, 255, 255, 0.7); /* Add a background for better visibility */
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+    pointer-events: none; /* Allow clicks to go through the span */
+  }
+  
+  nav ul li a.active {
+    /* Define styles for active link */
+    color: #4caf50; /* Change color, for example */
+    font-weight: bold; /* Apply bold font weight */
+    /* Add any other styles to distinguish the active link */
+  }

@@ -1,0 +1,55 @@
+nav ul li a.active {
+    /* Define styles for active link */
+    color: #4caf50; /* Change color, for example */
+    font-weight: bold; /* Apply bold font weight */
+    /* Add any other styles to distinguish the active link */
+  }
+
+
+  body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?w=1060&t=st=1702091343~exp=1702091943~hmac=f2fd32ecb252191b115a59d2d53c26884ca396ba919ddb949cb4c966d7ea15cd');
+    background-size: cover;
+}
+
+.news-container{
+    max-width: 800px;
+    margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+
+  .article {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .article img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .article h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .article p {
+    font-size: 14px;
+  }

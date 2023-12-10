@@ -1,0 +1,76 @@
+/* Additional CSS for Navbar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?w=1060&t=st=1702091343~exp=1702091943~hmac=f2fd32ecb252191b115a59d2d53c26884ca396ba919ddb949cb4c966d7ea15cd');
+    background-size: cover;
+}
+
+.login-container {
+    max-width: 350px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin-bottom: 160px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Style for error messages */
+.error-message {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ff7f7f;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
